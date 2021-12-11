@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info</title>
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+      <!-- Navbar -->
+      <header>
+  
+         <a href="#" class="logo">Farheen</a>
+        <link rel="shortcut icon" href="/G:/coding/wensite/favicon.ico" type="image/x-icon" />
+<meta charset="utf-8"/>
+        <input type="checkbox" id="menu-bar" />
+        <label for="menu-bar"><i class="fas fa-bars"></i></label>
+        <nav class="nav">
+            <ul>
+                <li><a href="./honesty.html" class="active">Home</a></li>
+                <li><a href="./reflection.html">Reflection</a></li>
+                <li><a href="./info.html">Info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<div class="main_form_container">
+
+    <div class="container">
+        <form id="form" class="form">
+            <h2>User Info</h2>
+            <div class="form-control">
+                <label for="username">First Name</label>
+                <input type="text"  id="username" placeholder="Enter Firstname">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Last Name</label>
+                <input type="text" id="username_last" placeholder="Enter Lastname">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password2">Confirm Password</label>
+                <input type="password" id="password2" placeholder="Enter password again">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Enter age">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control_input">
+    
+    
+             
+
+               <input type="radio" name="estatus" value="Graduate" id="graduate" > Graduate <br>  
+                    <input type="radio" name="estatus" value="current Enrolled" id="currentenrolled"> Current Enrolled <br>
+                    <input type="radio" name="estatus" value="Did not graduate" id="didnotgraduate"> Did not graduate <br>
+             
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    </div>
+
+    <input type="hidden" name="lastName" id="lastName" value="Farheen" />
+<input type="hidden" name="studentId" id="studentId" value="154188205" />
+
+    
+  <!-- Popup -->
+  <div class="popup-view" id="popup_view">
+      <form action="https://httpbin.org/post" method="POST">
+    <div class="popup-card">
+
+      <div class="info">
+        <h2 id="popup_heading">SuccessFully validated<br></h2>
+           <button type="submit" id="success_validate">ok</button>
+           
+        </div>
+    </div>
+</form>
+  </div>
+
+
+  
+
+  <footer class="footer">
+    <div class="icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-whatsapp"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+
+    <div class="git">
+        <a href="https://github.com/fdpathan/WEB222">My Github page </a>
+    </div>
+  </footer>
+
+
+    <script src="./info.js"></script>
+</body>
+</html>
